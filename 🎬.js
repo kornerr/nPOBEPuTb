@@ -1,5 +1,4 @@
-ПриветИзШаблона = мир =>
+СкрытьКрутилку = мир =>
 {
-    console.log("Привет из шаблона!");
-    console.log("Hello from the template!");
+    document.getElementById("крутилка").style.display = "none";
 };
