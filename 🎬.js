@@ -1,12 +1,12 @@
-const АДРЕС_АРХИВА = "https://git.opengamestudio.org/kornerr/nPOBEPuTb-JSZip-PEC/raw/branch/master/zip_TEMA_M1K.zip";
-
+//const АДРЕС_АРХИВА = "https://git.opengamestudio.org/kornerr/nPOBEPuTb-JSZip-PEC/raw/branch/master/zip_TEMA_M1K.zip";
+const АДРЕС_АРХИВА = "https://git.opengamestudio.org/kornerr/nPOBEPuTb-JSZip-PEC/raw/branch/master/zip_10M.zip";
 
 // // // //
 
 
 ИзучитьАрхив = мир =>
 {
-    мир.архив.file("zip_TEMA_M1K/0000").async("string").then(function(содержимое) {
+    мир.архив.file("zip_10M/0000").async("string").then(function(содержимое) {
         document.body.innerHTML += `<pre>${содержимое}</pre>`;
     });
 };
